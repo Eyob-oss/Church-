@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethiopian Orthodox Tewahedo Church</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Ethiopian Orthodox Tewahedo Church Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="html3.html">About Us</a></li>
+                    <li><a href="html4.html">Media</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="php.php">Donate</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to the Ethiopian Orthodox Tewahedo Church</h1>
+            <p>Where Faith Meets Tradition</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>The Ethiopian Orthodox Tewahedo Church is one of the oldest Christian denominations in the world. Rooted in ancient traditions, it combines deep spirituality with rich cultural heritage.</p>
+            <a href="html3.html" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media" class="media">
+        <div class="container">
+            <h2>Media Library</h2>
+            <div class="media-items">
+                <div class="media-item">
+                    <img src="images/sermon.jpg" alt="Sermon">
+                    <h3>Latest Sermons</h3>
+                    <p>Listen to our recent sermons from clergy.</p>
+                </div>
+                <div class="media-item">
+                    <img src="images/hymns.jpg" alt="Hymns">
+                    <h3>Hymns & Chants</h3>
+                    <p>Enjoy traditional hymns and chants.</p>
+                </div>
+                <div class="media-item">
+                    <img src="images/gallery.jpg" alt="Gallery">
+                    <h3>Photo Gallery</h3>
+                    <p>Browse photos of our ceremonies and events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="event-item">
+                <img src="images/event1.jpg" alt="Event 1">
+                <h3>Liturgical Service</h3>
+                <p>Date: December 25, 2023</p>
+                <p>Time: 6:00 AM</p>
+            </div>
+            <div class="event-item">
+                <img src="images/event2.jpg" alt="Event 2">
+                <h3>Community Gathering</h3>
+                <p>Date: January 7, 2024</p>
+                <p>Time: 2:00 PM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section id="donate" class="donate">
+        <div class="container">
+            <h2>Support Our Mission</h2>
+            <p>Your donations help us maintain our spiritual and cultural heritage.</p>
+            <a href="php.php" class="btn">Donate Now</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <a href="contact.html" class="btn">Send Message</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Ethiopian Orthodox Tewahedo Church. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript Files -->
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
